@@ -1,16 +1,14 @@
-# majoo_pretest
+# Majoo Pretest 
+Package
+- Dio
 
-A new Flutter project.
+Catatan
+Home - Menampilkan data title dan body dengan ListView Builder berupa response list yang di get dari https://jsonplaceholder.typicode.com/posts
+SearchBar - Mencari data dengan id post menggunakan yang di get dari https://jsonplaceholder.typicode.com/posts/{id} dan akan ditampilkan menggantikan ListView awal.
+- Refresh Button untuk mengembalikan kondisi awal Home.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot
+| Home List All Posts | Home List from SearchBar |
+|---|---|
+|  ![S1](/screenshot/Screenshot_1645847336.png) |  ![S2](/screenshot/Screenshot_1645847333.png) |
+ 
